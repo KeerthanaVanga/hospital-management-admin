@@ -49,6 +49,7 @@ const DoctorContextProvider = ({ children }) => {
           autoClose: 5000,
         });
         getAppointments();
+        getDashData();
       } else {
         toast.error(data.message);
       }
@@ -74,6 +75,7 @@ const DoctorContextProvider = ({ children }) => {
           autoClose: 5000,
         });
         getAppointments();
+        getDashData();
       } else {
         toast.error(data.message);
       }
